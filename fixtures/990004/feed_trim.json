@@ -1,0 +1,1652 @@
+{
+ "gamePk": 990004,
+ "gameData": {
+  "teams": {
+   "away": {
+    "abbreviation": "HOU"
+   },
+   "home": {
+    "abbreviation": "ATH"
+   }
+  },
+  "datetime": {
+   "officialDate": "2099-04-02"
+  }
+ },
+ "liveData": {
+  "plays": {
+   "allPlays": [
+    {
+     "about": {
+      "atBatIndex": 0,
+      "halfInning": "top",
+      "inning": 1,
+      "startTime": "2099-04-02T01:40:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 1 grounds out.",
+      "awayScore": 0,
+      "homeScore": 0
+     },
+     "playEvents": [
+      {
+       "playId": "75340f2d-d993-5d19-9a9d-e11163f62ad0",
+       "startTime": "2099-04-02T01:40:00Z",
+       "index": 0
+      },
+      {
+       "playId": "6a8a27c5-756e-5b66-9ac2-20739ffcf869",
+       "startTime": "2099-04-02T01:40:25Z",
+       "index": 1
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 1,
+      "halfInning": "top",
+      "inning": 1,
+      "startTime": "2099-04-02T01:43:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 2 pops out.",
+      "awayScore": 0,
+      "homeScore": 0
+     },
+     "playEvents": [
+      {
+       "playId": "2b1b2769-3046-5eaf-b72a-ca2c0e7af166",
+       "startTime": "2099-04-02T01:43:00Z",
+       "index": 0
+      },
+      {
+       "playId": "47293262-f14d-55f7-9c30-8ba3856a0e09",
+       "startTime": "2099-04-02T01:43:25Z",
+       "index": 1
+      },
+      {
+       "playId": "846245a3-7201-5043-ab33-c12ece2b9e81",
+       "startTime": "2099-04-02T01:43:50Z",
+       "index": 2
+      },
+      {
+       "playId": "f39e2059-cc54-558c-9b3d-58e3b427b5a4",
+       "startTime": "2099-04-02T01:44:15Z",
+       "index": 3
+      },
+      {
+       "playId": "dc95d3c2-634a-544a-be1b-14d58dd2f033",
+       "startTime": "2099-04-02T01:44:40Z",
+       "index": 4
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 2,
+      "halfInning": "top",
+      "inning": 1,
+      "startTime": "2099-04-02T01:46:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 3 singles.",
+      "awayScore": 0,
+      "homeScore": 0
+     },
+     "playEvents": [
+      {
+       "playId": "1dc13d11-59c8-51f1-8d70-9c0b71f7dcbe",
+       "startTime": "2099-04-02T01:46:00Z",
+       "index": 0
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 3,
+      "halfInning": "bottom",
+      "inning": 1,
+      "startTime": "2099-04-02T01:49:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 4 strikes out.",
+      "awayScore": 0,
+      "homeScore": 0
+     },
+     "playEvents": [
+      {
+       "playId": "05038e7f-5850-53ab-a43f-f4f156782505",
+       "startTime": "2099-04-02T01:49:00Z",
+       "index": 0
+      },
+      {
+       "playId": "c658ec19-6baa-58f5-b3f7-114d3430463f",
+       "startTime": "2099-04-02T01:49:25Z",
+       "index": 1
+      },
+      {
+       "playId": "75163af3-d74a-51bb-9619-422e9d0429fb",
+       "startTime": "2099-04-02T01:49:50Z",
+       "index": 2
+      },
+      {
+       "playId": "59c44363-8984-54d4-948a-822dbb8695ec",
+       "startTime": "2099-04-02T01:50:15Z",
+       "index": 3
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 4,
+      "halfInning": "bottom",
+      "inning": 1,
+      "startTime": "2099-04-02T01:52:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 5 pops out.",
+      "awayScore": 0,
+      "homeScore": 0
+     },
+     "playEvents": [
+      {
+       "playId": "a06a955e-5c84-5dca-8488-0dc66efea810",
+       "startTime": "2099-04-02T01:52:00Z",
+       "index": 0
+      },
+      {
+       "playId": "b1b9e93a-5d7d-5525-850f-074aeaa99593",
+       "startTime": "2099-04-02T01:52:25Z",
+       "index": 1
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 5,
+      "halfInning": "bottom",
+      "inning": 1,
+      "startTime": "2099-04-02T01:55:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 6 pops out.",
+      "awayScore": 0,
+      "homeScore": 0
+     },
+     "playEvents": [
+      {
+       "playId": "65d0fefd-be63-5b3a-88c8-4ac7688955aa",
+       "startTime": "2099-04-02T01:55:00Z",
+       "index": 0
+      },
+      {
+       "playId": "6f6302d0-f4eb-5dab-9b94-5b1ac15a0be6",
+       "startTime": "2099-04-02T01:55:25Z",
+       "index": 1
+      },
+      {
+       "playId": "ace732b2-9746-559b-9043-ad33a6c768dd",
+       "startTime": "2099-04-02T01:55:50Z",
+       "index": 2
+      },
+      {
+       "playId": "d2ce28a3-7011-5048-8c6b-a57d70da2137",
+       "startTime": "2099-04-02T01:56:15Z",
+       "index": 3
+      },
+      {
+       "playId": "d6b9bc66-4ce4-57d2-b3ea-f8449d423f73",
+       "startTime": "2099-04-02T01:56:40Z",
+       "index": 4
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 6,
+      "halfInning": "top",
+      "inning": 2,
+      "startTime": "2099-04-02T01:58:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 7 flies out.",
+      "awayScore": 0,
+      "homeScore": 0
+     },
+     "playEvents": [
+      {
+       "playId": "fbca641d-c8b5-5394-a55d-221568cb6fa3",
+       "startTime": "2099-04-02T01:58:00Z",
+       "index": 0
+      },
+      {
+       "playId": "7fae56f9-1e1c-53fd-bc99-e789ee7623e7",
+       "startTime": "2099-04-02T01:58:25Z",
+       "index": 1
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 7,
+      "halfInning": "top",
+      "inning": 2,
+      "startTime": "2099-04-02T02:01:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 8 lines out.",
+      "awayScore": 0,
+      "homeScore": 0
+     },
+     "playEvents": [
+      {
+       "playId": "62c96edc-1cde-5f77-8709-99a78f4baded",
+       "startTime": "2099-04-02T02:01:00Z",
+       "index": 0
+      },
+      {
+       "playId": "7f3b05c4-3c6a-59b9-8e5c-c6bbbe5fcb07",
+       "startTime": "2099-04-02T02:01:25Z",
+       "index": 1
+      },
+      {
+       "playId": "42de0f14-8e08-5290-b3c9-8bb92a6b649b",
+       "startTime": "2099-04-02T02:01:50Z",
+       "index": 2
+      },
+      {
+       "playId": "f3a55392-f6d5-58e8-b234-949361d98795",
+       "startTime": "2099-04-02T02:02:15Z",
+       "index": 3
+      },
+      {
+       "playId": "7544fa3d-2839-52ad-91f9-9b38b17c7ba6",
+       "startTime": "2099-04-02T02:02:40Z",
+       "index": 4
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 8,
+      "halfInning": "top",
+      "inning": 2,
+      "startTime": "2099-04-02T02:04:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 9 grounds out.",
+      "awayScore": 0,
+      "homeScore": 0
+     },
+     "playEvents": [
+      {
+       "playId": "6f459501-2b0e-53f8-a573-aca8d961cdbc",
+       "startTime": "2099-04-02T02:04:00Z",
+       "index": 0
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 9,
+      "halfInning": "bottom",
+      "inning": 2,
+      "startTime": "2099-04-02T02:07:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 10 singles.",
+      "awayScore": 0,
+      "homeScore": 0
+     },
+     "playEvents": [
+      {
+       "playId": "5338f982-92e3-53a2-96f1-f8c7449fb167",
+       "startTime": "2099-04-02T02:07:00Z",
+       "index": 0
+      },
+      {
+       "playId": "4e835d2d-6b30-5de4-a9c0-df7ef6705421",
+       "startTime": "2099-04-02T02:07:25Z",
+       "index": 1
+      },
+      {
+       "playId": "5e68022c-22eb-5d0f-9251-344fa6585556",
+       "startTime": "2099-04-02T02:07:50Z",
+       "index": 2
+      },
+      {
+       "playId": "87046a1d-5fe0-5aa4-a1de-aad5e80bd115",
+       "startTime": "2099-04-02T02:08:15Z",
+       "index": 3
+      },
+      {
+       "playId": "cf5175f5-24b3-56dc-ab79-31e5ae782b4e",
+       "startTime": "2099-04-02T02:08:40Z",
+       "index": 4
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 10,
+      "halfInning": "bottom",
+      "inning": 2,
+      "startTime": "2099-04-02T02:10:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 11 homers. 1 run(s) score.",
+      "awayScore": 0,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "89160cc2-187a-58ff-aff5-f5e278e4ea23",
+       "startTime": "2099-04-02T02:10:00Z",
+       "index": 0
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 11,
+      "halfInning": "bottom",
+      "inning": 2,
+      "startTime": "2099-04-02T02:13:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 12 pops out.",
+      "awayScore": 0,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "bc16cc60-ebce-5135-8367-e378cfdf879a",
+       "startTime": "2099-04-02T02:13:00Z",
+       "index": 0
+      },
+      {
+       "playId": "798876b5-e76c-5ae3-93d9-b333d918264f",
+       "startTime": "2099-04-02T02:13:25Z",
+       "index": 1
+      },
+      {
+       "playId": "b9f4eafb-c005-53b8-b716-789573b3eca4",
+       "startTime": "2099-04-02T02:13:50Z",
+       "index": 2
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 12,
+      "halfInning": "top",
+      "inning": 3,
+      "startTime": "2099-04-02T02:16:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 13 lines out.",
+      "awayScore": 0,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "4ad3d0b0-54f8-5f9a-b071-8b929278ca8d",
+       "startTime": "2099-04-02T02:16:00Z",
+       "index": 0
+      },
+      {
+       "playId": "7b97720f-f85f-51d0-aeac-a171221a6b1c",
+       "startTime": "2099-04-02T02:16:25Z",
+       "index": 1
+      },
+      {
+       "playId": "0cb1aa21-1178-5e4c-b9b2-0ff06ffb7b45",
+       "startTime": "2099-04-02T02:16:50Z",
+       "index": 2
+      },
+      {
+       "playId": "f7d99c7c-f378-53e6-80ad-bdc9786b3694",
+       "startTime": "2099-04-02T02:17:15Z",
+       "index": 3
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 13,
+      "halfInning": "top",
+      "inning": 3,
+      "startTime": "2099-04-02T02:19:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 1 pops out.",
+      "awayScore": 0,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "2f37cdb5-d021-59fc-bdc5-2ab52eabcd16",
+       "startTime": "2099-04-02T02:19:00Z",
+       "index": 0
+      },
+      {
+       "playId": "eda45295-e823-556a-87c2-c4840685cc8a",
+       "startTime": "2099-04-02T02:19:25Z",
+       "index": 1
+      },
+      {
+       "playId": "6379f0b0-69a2-5573-a27a-a00f5ee85315",
+       "startTime": "2099-04-02T02:19:50Z",
+       "index": 2
+      },
+      {
+       "playId": "dbd5a999-6ce9-55c0-98cb-3f83b72059ab",
+       "startTime": "2099-04-02T02:20:15Z",
+       "index": 3
+      },
+      {
+       "playId": "8db72184-9a16-561a-ae30-1861c26ba06b",
+       "startTime": "2099-04-02T02:20:40Z",
+       "index": 4
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 14,
+      "halfInning": "top",
+      "inning": 3,
+      "startTime": "2099-04-02T02:22:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 2 walks.",
+      "awayScore": 0,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "ec939b0a-19c1-5d80-8c9f-8fdfd64080b1",
+       "startTime": "2099-04-02T02:22:00Z",
+       "index": 0
+      },
+      {
+       "playId": "82675134-71ea-5844-8a90-242fbdef9c46",
+       "startTime": "2099-04-02T02:22:25Z",
+       "index": 1
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 15,
+      "halfInning": "bottom",
+      "inning": 3,
+      "startTime": "2099-04-02T02:25:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 3 pops out.",
+      "awayScore": 0,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "22a0b693-4cff-5da6-8870-8c7004a4f614",
+       "startTime": "2099-04-02T02:25:00Z",
+       "index": 0
+      },
+      {
+       "playId": "c4fb260b-2499-530a-a0b1-52da94cfc095",
+       "startTime": "2099-04-02T02:25:25Z",
+       "index": 1
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 16,
+      "halfInning": "bottom",
+      "inning": 3,
+      "startTime": "2099-04-02T02:28:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 4 strikes out.",
+      "awayScore": 0,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "42eafaba-8cdd-58f2-841a-1c052e5b44cf",
+       "startTime": "2099-04-02T02:28:00Z",
+       "index": 0
+      },
+      {
+       "playId": "3ccaf395-7763-5fc0-abeb-da13372764d6",
+       "startTime": "2099-04-02T02:28:25Z",
+       "index": 1
+      },
+      {
+       "playId": "f3de51c8-cf81-5e07-8921-b118a97c150e",
+       "startTime": "2099-04-02T02:28:50Z",
+       "index": 2
+      },
+      {
+       "playId": "fcb91278-ad18-5bc2-9e90-00eb5fe9a4fb",
+       "startTime": "2099-04-02T02:29:15Z",
+       "index": 3
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 17,
+      "halfInning": "bottom",
+      "inning": 3,
+      "startTime": "2099-04-02T02:31:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 5 walks.",
+      "awayScore": 0,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "b1f82b6b-403e-59ec-8551-65eb38690d8d",
+       "startTime": "2099-04-02T02:31:00Z",
+       "index": 0
+      },
+      {
+       "playId": "25928c38-2b7e-50e3-8f6d-e6eed639efec",
+       "startTime": "2099-04-02T02:31:25Z",
+       "index": 1
+      },
+      {
+       "playId": "4fffba1a-2f47-5c25-b53f-b2f6cabca804",
+       "startTime": "2099-04-02T02:31:50Z",
+       "index": 2
+      },
+      {
+       "playId": "75ed1afd-3d7e-50be-b609-a378571f1665",
+       "startTime": "2099-04-02T02:32:15Z",
+       "index": 3
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 18,
+      "halfInning": "top",
+      "inning": 4,
+      "startTime": "2099-04-02T02:34:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 6 flies out.",
+      "awayScore": 0,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "cc3e04dd-1f2d-5fc0-b0fa-3e1ac3efa5d7",
+       "startTime": "2099-04-02T02:34:00Z",
+       "index": 0
+      },
+      {
+       "playId": "72f6b14e-9151-5df3-888e-d3191c8b2a1a",
+       "startTime": "2099-04-02T02:34:25Z",
+       "index": 1
+      },
+      {
+       "playId": "4c12b617-bd6e-5757-aac4-451a46b277e1",
+       "startTime": "2099-04-02T02:34:50Z",
+       "index": 2
+      },
+      {
+       "playId": "3e6ee84f-4a0f-5f4b-a6f3-5c0e97d12094",
+       "startTime": "2099-04-02T02:35:15Z",
+       "index": 3
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 19,
+      "halfInning": "top",
+      "inning": 4,
+      "startTime": "2099-04-02T02:37:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 7 strikes out.",
+      "awayScore": 0,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "393230d4-cbc3-5d72-8085-49501be58789",
+       "startTime": "2099-04-02T02:37:00Z",
+       "index": 0
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 20,
+      "halfInning": "top",
+      "inning": 4,
+      "startTime": "2099-04-02T02:40:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 8 homers. 3 run(s) score.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "d7d72b0f-1523-57be-88a5-39d1d4a372b0",
+       "startTime": "2099-04-02T02:40:00Z",
+       "index": 0
+      },
+      {
+       "playId": "703aa0c5-cec9-53d1-aa02-b73a54cc0286",
+       "startTime": "2099-04-02T02:40:25Z",
+       "index": 1
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 21,
+      "halfInning": "bottom",
+      "inning": 4,
+      "startTime": "2099-04-02T02:43:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 9 doubles.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "28f15f03-c3dc-513d-8263-3117faa99635",
+       "startTime": "2099-04-02T02:43:00Z",
+       "index": 0
+      },
+      {
+       "playId": "fa08cff4-f820-56a3-8d98-f3716e7b5780",
+       "startTime": "2099-04-02T02:43:25Z",
+       "index": 1
+      },
+      {
+       "playId": "ba67f5ca-fbe1-5c3e-9342-1af06fa99065",
+       "startTime": "2099-04-02T02:43:50Z",
+       "index": 2
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 22,
+      "halfInning": "bottom",
+      "inning": 4,
+      "startTime": "2099-04-02T02:46:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 10 strikes out.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "dda14f62-7594-53c4-a802-a61b5113576f",
+       "startTime": "2099-04-02T02:46:00Z",
+       "index": 0
+      },
+      {
+       "playId": "5732293e-2c75-5587-ae15-a50310b28c5e",
+       "startTime": "2099-04-02T02:46:25Z",
+       "index": 1
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 23,
+      "halfInning": "bottom",
+      "inning": 4,
+      "startTime": "2099-04-02T02:49:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 11 pops out.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "d0228a62-eec5-57f4-a476-473616859776",
+       "startTime": "2099-04-02T02:49:00Z",
+       "index": 0
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 24,
+      "halfInning": "top",
+      "inning": 5,
+      "startTime": "2099-04-02T02:52:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 12 doubles.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "4b6b5b69-56ad-5c4a-bf55-cb5504a90128",
+       "startTime": "2099-04-02T02:52:00Z",
+       "index": 0
+      },
+      {
+       "playId": "8b2e03fe-9a7a-5b01-9781-d2c7b0ea7780",
+       "startTime": "2099-04-02T02:52:25Z",
+       "index": 1
+      },
+      {
+       "playId": "86682dd7-0d6f-5490-adbd-2543201157ed",
+       "startTime": "2099-04-02T02:52:50Z",
+       "index": 2
+      },
+      {
+       "playId": "db73bea0-ae95-51b3-bc7f-a484073b875d",
+       "startTime": "2099-04-02T02:53:15Z",
+       "index": 3
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 25,
+      "halfInning": "top",
+      "inning": 5,
+      "startTime": "2099-04-02T02:55:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 13 lines out.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "cd149c42-484b-54a3-afdf-a661ce93780b",
+       "startTime": "2099-04-02T02:55:00Z",
+       "index": 0
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 26,
+      "halfInning": "top",
+      "inning": 5,
+      "startTime": "2099-04-02T02:58:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 1 strikes out.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "b5d3f8c5-7370-5b38-9339-783d4ab59b08",
+       "startTime": "2099-04-02T02:58:00Z",
+       "index": 0
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 27,
+      "halfInning": "bottom",
+      "inning": 5,
+      "startTime": "2099-04-02T03:01:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 2 doubles.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "6da2982c-f940-5d15-bcdb-1c44e159eff2",
+       "startTime": "2099-04-02T03:01:00Z",
+       "index": 0
+      },
+      {
+       "playId": "bc5c354c-0d98-5556-8b9a-fb15177a4865",
+       "startTime": "2099-04-02T03:01:25Z",
+       "index": 1
+      },
+      {
+       "playId": "5eb40d12-6c57-58a2-a226-a3c2ffbace6b",
+       "startTime": "2099-04-02T03:01:50Z",
+       "index": 2
+      },
+      {
+       "playId": "7041f2f8-4a1c-5667-a868-8448234eb510",
+       "startTime": "2099-04-02T03:02:15Z",
+       "index": 3
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 28,
+      "halfInning": "bottom",
+      "inning": 5,
+      "startTime": "2099-04-02T03:04:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 3 singles.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "8719b528-f585-5699-afba-86060ccf7039",
+       "startTime": "2099-04-02T03:04:00Z",
+       "index": 0
+      },
+      {
+       "playId": "483f9f6d-1a8e-51e2-ba01-207615ff6055",
+       "startTime": "2099-04-02T03:04:25Z",
+       "index": 1
+      },
+      {
+       "playId": "c7a82f44-55ea-517c-aa94-0041186ef459",
+       "startTime": "2099-04-02T03:04:50Z",
+       "index": 2
+      },
+      {
+       "playId": "fcd01ef2-33d7-5b68-b5a6-b81eba127794",
+       "startTime": "2099-04-02T03:05:15Z",
+       "index": 3
+      },
+      {
+       "playId": "2fafb20c-a307-59c9-a28b-6d6eeb3a41e0",
+       "startTime": "2099-04-02T03:05:40Z",
+       "index": 4
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 29,
+      "halfInning": "bottom",
+      "inning": 5,
+      "startTime": "2099-04-02T03:07:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 4 walks.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "38fcd94e-ba31-550a-8206-a1aeeec2c00b",
+       "startTime": "2099-04-02T03:07:00Z",
+       "index": 0
+      },
+      {
+       "playId": "5a34ecaa-7949-51b0-8278-8a90941403de",
+       "startTime": "2099-04-02T03:07:25Z",
+       "index": 1
+      },
+      {
+       "playId": "85dd6124-954b-5226-81ac-47df42dd3587",
+       "startTime": "2099-04-02T03:07:50Z",
+       "index": 2
+      },
+      {
+       "playId": "5b135762-d072-5a3d-a64e-9814be0381be",
+       "startTime": "2099-04-02T03:08:15Z",
+       "index": 3
+      },
+      {
+       "playId": "2c606dd4-e2e2-5c51-852f-418c013666d7",
+       "startTime": "2099-04-02T03:08:40Z",
+       "index": 4
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 30,
+      "halfInning": "top",
+      "inning": 6,
+      "startTime": "2099-04-02T03:10:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 5 flies out.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "836b5f11-257f-573a-9e0b-e9b3abbd4d3f",
+       "startTime": "2099-04-02T03:10:00Z",
+       "index": 0
+      },
+      {
+       "playId": "8b29a977-6a51-5ecd-9e47-21b48bc77347",
+       "startTime": "2099-04-02T03:10:25Z",
+       "index": 1
+      },
+      {
+       "playId": "6f1e2639-0600-55d9-9fd7-a11e796d6a63",
+       "startTime": "2099-04-02T03:10:50Z",
+       "index": 2
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 31,
+      "halfInning": "top",
+      "inning": 6,
+      "startTime": "2099-04-02T03:13:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 6 singles.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "da252231-62d2-5257-8fcd-9ea35a47a6c8",
+       "startTime": "2099-04-02T03:13:00Z",
+       "index": 0
+      },
+      {
+       "playId": "823b47a5-4f58-5a1b-b735-00601fba5617",
+       "startTime": "2099-04-02T03:13:25Z",
+       "index": 1
+      },
+      {
+       "playId": "dca9dd9f-4c72-5d72-b7f0-a20ed96739cf",
+       "startTime": "2099-04-02T03:13:50Z",
+       "index": 2
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 32,
+      "halfInning": "top",
+      "inning": 6,
+      "startTime": "2099-04-02T03:16:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 7 singles.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "728be3f1-04ff-5adc-a682-587609defc94",
+       "startTime": "2099-04-02T03:16:00Z",
+       "index": 0
+      },
+      {
+       "playId": "6df6438e-4dbd-5d77-a2e0-3bdd02d3fd67",
+       "startTime": "2099-04-02T03:16:25Z",
+       "index": 1
+      },
+      {
+       "playId": "fbdde2a3-ea5d-5d52-a7ca-54e04235aaaf",
+       "startTime": "2099-04-02T03:16:50Z",
+       "index": 2
+      },
+      {
+       "playId": "56549f1d-733f-57f4-8861-7fd77663816a",
+       "startTime": "2099-04-02T03:17:15Z",
+       "index": 3
+      },
+      {
+       "playId": "6628dd8c-b05b-5dd8-879d-da32364b3410",
+       "startTime": "2099-04-02T03:17:40Z",
+       "index": 4
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 33,
+      "halfInning": "bottom",
+      "inning": 6,
+      "startTime": "2099-04-02T03:19:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 8 strikes out.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "7f79bff6-c596-52a4-958d-daec73f644be",
+       "startTime": "2099-04-02T03:19:00Z",
+       "index": 0
+      },
+      {
+       "playId": "cbf5813d-ab4e-50ac-b882-10b8337429b9",
+       "startTime": "2099-04-02T03:19:25Z",
+       "index": 1
+      },
+      {
+       "playId": "23a02038-7479-5795-90f5-53e8e358e36f",
+       "startTime": "2099-04-02T03:19:50Z",
+       "index": 2
+      },
+      {
+       "playId": "a4d89fcc-a6bf-5699-a6d4-44f7c668639a",
+       "startTime": "2099-04-02T03:20:15Z",
+       "index": 3
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 34,
+      "halfInning": "bottom",
+      "inning": 6,
+      "startTime": "2099-04-02T03:22:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 9 singles.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "4674b3a6-11d4-5301-908c-2f1aacc5d09f",
+       "startTime": "2099-04-02T03:22:00Z",
+       "index": 0,
+       "reviewDetails": {
+        "isOverturned": true,
+        "reviewType": "MJ",
+        "challengeTeamId": 0
+       }
+      },
+      {
+       "playId": "38997c54-24c7-599b-87a6-2de2972daa48",
+       "startTime": "2099-04-02T03:22:25Z",
+       "index": 1
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 35,
+      "halfInning": "bottom",
+      "inning": 6,
+      "startTime": "2099-04-02T03:25:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 10 walks.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "dbfaff26-5e21-53fa-a5a0-b2a58d6f118d",
+       "startTime": "2099-04-02T03:25:00Z",
+       "index": 0
+      },
+      {
+       "playId": "2d9cc1b2-a445-5868-804d-6575864b67f2",
+       "startTime": "2099-04-02T03:25:25Z",
+       "index": 1
+      },
+      {
+       "playId": "fd2144db-f1de-54cb-8846-1061b17bcf60",
+       "startTime": "2099-04-02T03:25:50Z",
+       "index": 2
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 36,
+      "halfInning": "top",
+      "inning": 7,
+      "startTime": "2099-04-02T03:28:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 11 lines out.",
+      "awayScore": 3,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "2fffc82b-d93b-5de8-bbfc-29e06ff0825b",
+       "startTime": "2099-04-02T03:28:00Z",
+       "index": 0
+      },
+      {
+       "playId": "36cb688f-6446-5689-87f4-a1adc17f5453",
+       "startTime": "2099-04-02T03:28:25Z",
+       "index": 1
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 37,
+      "halfInning": "top",
+      "inning": 7,
+      "startTime": "2099-04-02T03:31:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 12 homers. 1 run(s) score.",
+      "awayScore": 4,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "01b22fe8-3ae0-5b10-9ba1-383ba1cbbabc",
+       "startTime": "2099-04-02T03:31:00Z",
+       "index": 0
+      },
+      {
+       "playId": "28bc3f9e-09a6-5577-b1c9-08304196aaf0",
+       "startTime": "2099-04-02T03:31:25Z",
+       "index": 1
+      },
+      {
+       "playId": "458c0579-dd50-53d5-a646-7e868ee94659",
+       "startTime": "2099-04-02T03:31:50Z",
+       "index": 2
+      },
+      {
+       "playId": "fc58d314-9170-5a92-b432-170d09b86dda",
+       "startTime": "2099-04-02T03:32:15Z",
+       "index": 3
+      },
+      {
+       "playId": "412e81a3-996c-56ac-8a2e-96c43f4ad96a",
+       "startTime": "2099-04-02T03:32:40Z",
+       "index": 4
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 38,
+      "halfInning": "top",
+      "inning": 7,
+      "startTime": "2099-04-02T03:34:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 13 doubles.",
+      "awayScore": 4,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "9383dda2-d6fb-55b4-8ec3-f99957d75c23",
+       "startTime": "2099-04-02T03:34:00Z",
+       "index": 0
+      },
+      {
+       "playId": "d5118d47-a728-5461-8afd-d327449143bc",
+       "startTime": "2099-04-02T03:34:25Z",
+       "index": 1
+      },
+      {
+       "playId": "935af05f-d0bd-5e03-ae1d-a38bb6ab86b4",
+       "startTime": "2099-04-02T03:34:50Z",
+       "index": 2
+      },
+      {
+       "playId": "12063356-0961-5a03-b6c3-2737b4b3bb09",
+       "startTime": "2099-04-02T03:35:15Z",
+       "index": 3
+      },
+      {
+       "playId": "30ae88aa-e5e9-5c77-8b42-30e1e9791c42",
+       "startTime": "2099-04-02T03:35:40Z",
+       "index": 4
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 39,
+      "halfInning": "bottom",
+      "inning": 7,
+      "startTime": "2099-04-02T03:37:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 1 strikes out.",
+      "awayScore": 4,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "3397e7d3-059f-5ed5-95bf-029941ec66ed",
+       "startTime": "2099-04-02T03:37:00Z",
+       "index": 0
+      },
+      {
+       "playId": "d8ad04af-0a26-5d7e-bda1-b794c42d9ce2",
+       "startTime": "2099-04-02T03:37:25Z",
+       "index": 1
+      },
+      {
+       "playId": "e4021577-950f-521c-bad0-d4657eebbd24",
+       "startTime": "2099-04-02T03:37:50Z",
+       "index": 2
+      },
+      {
+       "playId": "2b6f2934-7f1c-50f2-884f-10f90905dbd0",
+       "startTime": "2099-04-02T03:38:15Z",
+       "index": 3
+      },
+      {
+       "playId": "4a1d6a77-0309-562e-90c2-04c3c0f5a5d5",
+       "startTime": "2099-04-02T03:38:40Z",
+       "index": 4
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 40,
+      "halfInning": "bottom",
+      "inning": 7,
+      "startTime": "2099-04-02T03:40:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 2 strikes out.",
+      "awayScore": 4,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "c8f3257f-4bf3-5701-b6e5-9ba8d448953d",
+       "startTime": "2099-04-02T03:40:00Z",
+       "index": 0
+      },
+      {
+       "playId": "b9f878b9-5cd4-5fff-be60-82d70045cb85",
+       "startTime": "2099-04-02T03:40:25Z",
+       "index": 1
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 41,
+      "halfInning": "bottom",
+      "inning": 7,
+      "startTime": "2099-04-02T03:43:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 3 strikes out.",
+      "awayScore": 4,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "aa794110-c8d1-5dda-9d67-7422bcaf14a7",
+       "startTime": "2099-04-02T03:43:00Z",
+       "index": 0
+      },
+      {
+       "playId": "970eebb0-f5c6-5566-9164-1fd1f1c84710",
+       "startTime": "2099-04-02T03:43:25Z",
+       "index": 1
+      },
+      {
+       "playId": "a07559eb-675c-516e-a98c-0fb206482bf2",
+       "startTime": "2099-04-02T03:43:50Z",
+       "index": 2
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 42,
+      "halfInning": "top",
+      "inning": 8,
+      "startTime": "2099-04-02T03:46:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 4 lines out.",
+      "awayScore": 4,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "627a782b-09cc-5b51-a8db-dc60f5e89160",
+       "startTime": "2099-04-02T03:46:00Z",
+       "index": 0
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 43,
+      "halfInning": "top",
+      "inning": 8,
+      "startTime": "2099-04-02T03:49:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 5 singles.",
+      "awayScore": 4,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "b82b97d2-cb84-5960-952a-d29a74d61180",
+       "startTime": "2099-04-02T03:49:00Z",
+       "index": 0
+      },
+      {
+       "playId": "5030d54c-eb70-51df-bf29-248d82c1a390",
+       "startTime": "2099-04-02T03:49:25Z",
+       "index": 1
+      },
+      {
+       "playId": "a407bede-57f6-5d5a-ac35-27c85b4f2bf1",
+       "startTime": "2099-04-02T03:49:50Z",
+       "index": 2
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 44,
+      "halfInning": "top",
+      "inning": 8,
+      "startTime": "2099-04-02T03:52:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 6 grounds out.",
+      "awayScore": 4,
+      "homeScore": 1
+     },
+     "playEvents": [
+      {
+       "playId": "3f5c957c-4317-50d3-b68f-73ef95a2ea5a",
+       "startTime": "2099-04-02T03:52:00Z",
+       "index": 0
+      },
+      {
+       "playId": "2e1827c4-6a48-544b-8351-dd189e711aa5",
+       "startTime": "2099-04-02T03:52:25Z",
+       "index": 1
+      },
+      {
+       "playId": "0acc5ea7-0d9a-52fc-a970-1e6782b6a9eb",
+       "startTime": "2099-04-02T03:52:50Z",
+       "index": 2
+      },
+      {
+       "playId": "d4b0560b-9b74-57f4-9610-548bf97f85ba",
+       "startTime": "2099-04-02T03:53:15Z",
+       "index": 3
+      },
+      {
+       "playId": "d1d7b9b5-8505-57de-9689-867d33fd1b77",
+       "startTime": "2099-04-02T03:53:40Z",
+       "index": 4
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 45,
+      "halfInning": "bottom",
+      "inning": 8,
+      "startTime": "2099-04-02T03:55:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 7 homers. 2 run(s) score.",
+      "awayScore": 4,
+      "homeScore": 3
+     },
+     "playEvents": [
+      {
+       "playId": "9b8fcf05-4685-5dc0-b952-501cc8e49a58",
+       "startTime": "2099-04-02T03:55:00Z",
+       "index": 0
+      },
+      {
+       "playId": "b92e13c7-7c08-5e58-a8d7-30eece4bf2f7",
+       "startTime": "2099-04-02T03:55:25Z",
+       "index": 1
+      },
+      {
+       "playId": "f33acd33-0be8-5c4f-b8b1-1bfcf4f486ef",
+       "startTime": "2099-04-02T03:55:50Z",
+       "index": 2
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 46,
+      "halfInning": "bottom",
+      "inning": 8,
+      "startTime": "2099-04-02T03:58:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 8 strikes out.",
+      "awayScore": 4,
+      "homeScore": 3
+     },
+     "playEvents": [
+      {
+       "playId": "dace3054-9574-5283-ac4e-0d51fc63731c",
+       "startTime": "2099-04-02T03:58:00Z",
+       "index": 0
+      },
+      {
+       "playId": "35b73493-d9a8-5f9a-86f0-9ea0d1192ac0",
+       "startTime": "2099-04-02T03:58:25Z",
+       "index": 1
+      },
+      {
+       "playId": "4eb1e8ee-541e-5162-bf82-e46315e3391c",
+       "startTime": "2099-04-02T03:58:50Z",
+       "index": 2
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 47,
+      "halfInning": "bottom",
+      "inning": 8,
+      "startTime": "2099-04-02T04:01:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 9 singles.",
+      "awayScore": 4,
+      "homeScore": 3
+     },
+     "playEvents": [
+      {
+       "playId": "f2dacb27-eac5-5d8d-ad96-a4b34bc7f133",
+       "startTime": "2099-04-02T04:01:00Z",
+       "index": 0
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 48,
+      "halfInning": "top",
+      "inning": 9,
+      "startTime": "2099-04-02T04:04:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 10 walks.",
+      "awayScore": 4,
+      "homeScore": 3
+     },
+     "playEvents": [
+      {
+       "playId": "e3365fe9-a342-5acb-b33c-4071bb5f8c5e",
+       "startTime": "2099-04-02T04:04:00Z",
+       "index": 0
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 49,
+      "halfInning": "top",
+      "inning": 9,
+      "startTime": "2099-04-02T04:07:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 11 strikes out.",
+      "awayScore": 4,
+      "homeScore": 3
+     },
+     "playEvents": [
+      {
+       "playId": "bf97253a-6d91-50d6-889c-99a0ec6f0390",
+       "startTime": "2099-04-02T04:07:00Z",
+       "index": 0
+      },
+      {
+       "playId": "81ba334c-dd8e-5bac-8429-41bc1677156d",
+       "startTime": "2099-04-02T04:07:25Z",
+       "index": 1
+      },
+      {
+       "playId": "9125c843-1744-545d-93d0-20e201cffb72",
+       "startTime": "2099-04-02T04:07:50Z",
+       "index": 2
+      },
+      {
+       "playId": "9b49eeae-0dab-522d-8fd2-072d69ec7b41",
+       "startTime": "2099-04-02T04:08:15Z",
+       "index": 3
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 50,
+      "halfInning": "top",
+      "inning": 9,
+      "startTime": "2099-04-02T04:10:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 12 grounds out.",
+      "awayScore": 4,
+      "homeScore": 3
+     },
+     "playEvents": [
+      {
+       "playId": "c903ef5c-76e0-5726-8621-9f6c1b9e6db9",
+       "startTime": "2099-04-02T04:10:00Z",
+       "index": 0
+      },
+      {
+       "playId": "f88d855c-2b18-5a51-9250-8f2487200c45",
+       "startTime": "2099-04-02T04:10:25Z",
+       "index": 1
+      },
+      {
+       "playId": "a12ea009-25b0-507d-a536-edaeee2bd51b",
+       "startTime": "2099-04-02T04:10:50Z",
+       "index": 2
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 51,
+      "halfInning": "bottom",
+      "inning": 9,
+      "startTime": "2099-04-02T04:13:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 13 walks.",
+      "awayScore": 4,
+      "homeScore": 3
+     },
+     "playEvents": [
+      {
+       "playId": "ac41cfac-fea3-572f-b7bb-0c95417649ef",
+       "startTime": "2099-04-02T04:13:00Z",
+       "index": 0
+      },
+      {
+       "playId": "4499d705-b8ca-5331-888f-3ce273a801bd",
+       "startTime": "2099-04-02T04:13:25Z",
+       "index": 1
+      },
+      {
+       "playId": "eb49396a-029c-531b-99c4-af4f3569b9ba",
+       "startTime": "2099-04-02T04:13:50Z",
+       "index": 2
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 52,
+      "halfInning": "bottom",
+      "inning": 9,
+      "startTime": "2099-04-02T04:16:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 1 strikes out.",
+      "awayScore": 4,
+      "homeScore": 3
+     },
+     "playEvents": [
+      {
+       "playId": "1c98f6e8-d303-598c-8725-9f8c2f2d235c",
+       "startTime": "2099-04-02T04:16:00Z",
+       "index": 0
+      },
+      {
+       "playId": "58863bcd-e08c-5e49-8466-f10bed2320b8",
+       "startTime": "2099-04-02T04:16:25Z",
+       "index": 1
+      },
+      {
+       "playId": "53226f49-9ea2-5060-818f-09832863d489",
+       "startTime": "2099-04-02T04:16:50Z",
+       "index": 2
+      }
+     ]
+    },
+    {
+     "about": {
+      "atBatIndex": 53,
+      "halfInning": "bottom",
+      "inning": 9,
+      "startTime": "2099-04-02T04:19:00Z"
+     },
+     "result": {
+      "description": "Synthetic Batter 2 singles.",
+      "awayScore": 4,
+      "homeScore": 3
+     },
+     "playEvents": [
+      {
+       "playId": "89530012-e13a-5b66-a5fa-4e54b5ab7aa4",
+       "startTime": "2099-04-02T04:19:00Z",
+       "index": 0
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

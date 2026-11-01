@@ -1,0 +1,111 @@
+{
+ "date": "2099-04-01",
+ "synthetic": true,
+ "games": [
+  {
+   "gamePk": 990003,
+   "officialDate": "2099-04-01",
+   "gameDate": "2099-04-01T17:05:00Z",
+   "gameNumber": 1,
+   "doubleHeader": "S",
+   "status": {
+    "abstractGameState": "Final",
+    "detailedState": "Final"
+   },
+   "teams": {
+    "away": {
+     "id": 110,
+     "name": "Baltimore Orioles"
+    },
+    "home": {
+     "id": 147,
+     "name": "New York Yankees"
+    }
+   }
+  },
+  {
+   "gamePk": 990002,
+   "officialDate": "2099-04-01",
+   "gameDate": "2099-04-01T21:10:00Z",
+   "gameNumber": 2,
+   "doubleHeader": "S",
+   "status": {
+    "abstractGameState": "Final",
+    "detailedState": "Final"
+   },
+   "teams": {
+    "away": {
+     "id": 110,
+     "name": "Baltimore Orioles"
+    },
+    "home": {
+     "id": 147,
+     "name": "New York Yankees"
+    }
+   }
+  },
+  {
+   "gamePk": 990004,
+   "officialDate": "2099-04-01",
+   "gameDate": "2099-04-02T01:40:00Z",
+   "gameNumber": 1,
+   "doubleHeader": "N",
+   "status": {
+    "abstractGameState": "Final",
+    "detailedState": "Final"
+   },
+   "teams": {
+    "away": {
+     "id": 117,
+     "name": "Houston Astros"
+    },
+    "home": {
+     "id": 133,
+     "name": "Athletics"
+    }
+   }
+  },
+  {
+   "gamePk": 990005,
+   "officialDate": "2099-04-01",
+   "gameDate": "2099-04-02T02:15:00Z",
+   "gameNumber": 1,
+   "doubleHeader": "N",
+   "status": {
+    "abstractGameState": "Final",
+    "detailedState": "Final"
+   },
+   "teams": {
+    "away": {
+     "id": 119,
+     "name": "Los Angeles Dodgers"
+    },
+    "home": {
+     "id": 137,
+     "name": "San Francisco Giants"
+    }
+   }
+  },
+  {
+   "gamePk": 990006,
+   "officialDate": "2099-04-01",
+   "gameDate": "2099-04-01T23:10:00Z",
+   "gameNumber": 1,
+   "doubleHeader": "N",
+   "status": {
+    "abstractGameState": "Preview",
+    "detailedState": "Postponed"
+   },
+   "teams": {
+    "away": {
+     "id": 112,
+     "name": "Chicago Cubs"
+    },
+    "home": {
+     "id": 111,
+     "name": "Boston Red Sox"
+    }
+   }
+  }
+ ]
+}

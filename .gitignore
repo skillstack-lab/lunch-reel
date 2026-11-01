@@ -1,0 +1,14 @@
+# rights: never commit video or real MLB data. Private viewing only.
+*.mp4
+*.m3u8
+*.ts
+*.mov
+*.webm
+*.mkv
+cache/
+out/
+local-fixtures/
+list*.txt
+__pycache__/
+.pytest_cache/
+runs.jsonl

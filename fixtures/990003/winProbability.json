@@ -1,0 +1,542 @@
+[
+ {
+  "about": {
+   "atBatIndex": 0
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -1.7,
+  "result": {
+   "description": "Synthetic Batter 1 doubles."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 1
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -14.0,
+  "result": {
+   "description": "Synthetic Batter 2 homers. 2 run(s) score."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 2
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 2.0,
+  "result": {
+   "description": "Synthetic Batter 3 lines out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 3
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -3.3,
+  "result": {
+   "description": "Synthetic Batter 4 pops out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 4
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 0.8,
+  "result": {
+   "description": "Synthetic Batter 5 lines out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 5
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -1.6,
+  "result": {
+   "description": "Synthetic Batter 6 pops out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 6
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 2.8,
+  "result": {
+   "description": "Synthetic Batter 7 doubles."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 7
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -3.3,
+  "result": {
+   "description": "Synthetic Batter 8 singles."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 8
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 3.1,
+  "result": {
+   "description": "Synthetic Batter 9 singles."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 9
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 3.3,
+  "result": {
+   "description": "Synthetic Batter 10 flies out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 10
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 1.8,
+  "result": {
+   "description": "Synthetic Batter 11 flies out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 11
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -1.1,
+  "result": {
+   "description": "Synthetic Batter 12 flies out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 12
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 12.0,
+  "result": {
+   "description": "Synthetic Batter 13 pops out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 13
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 2.4,
+  "result": {
+   "description": "Synthetic Batter 1 lines out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 14
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -2.2,
+  "result": {
+   "description": "Synthetic Batter 2 doubles."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 15
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 1.7,
+  "result": {
+   "description": "Synthetic Batter 3 doubles."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 16
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 9.5,
+  "result": {
+   "description": "Synthetic Batter 4 homers. 1 run(s) score."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 17
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -1.4,
+  "result": {
+   "description": "Synthetic Batter 5 flies out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 18
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 2.4,
+  "result": {
+   "description": "Synthetic Batter 6 pops out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 19
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 0.6,
+  "result": {
+   "description": "Synthetic Batter 7 lines out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 20
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -1.8,
+  "result": {
+   "description": "Synthetic Batter 8 pops out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 21
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 1.2,
+  "result": {
+   "description": "Synthetic Batter 9 lines out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 22
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 21.1,
+  "result": {
+   "description": "Synthetic Batter 10 homers. 2 run(s) score."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 23
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -0.4,
+  "result": {
+   "description": "Synthetic Batter 11 doubles."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 24
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 1.9,
+  "result": {
+   "description": "Synthetic Batter 12 doubles."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 25
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -0.9,
+  "result": {
+   "description": "Synthetic Batter 13 lines out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 26
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -3.2,
+  "result": {
+   "description": "Synthetic Batter 1 pops out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 27
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 1.0,
+  "result": {
+   "description": "Synthetic Batter 2 lines out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 28
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 3.4,
+  "result": {
+   "description": "Synthetic Batter 3 flies out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 29
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -0.7,
+  "result": {
+   "description": "Synthetic Batter 4 flies out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 30
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -0.3,
+  "result": {
+   "description": "Synthetic Batter 5 walks."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 31
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -8.0,
+  "result": {
+   "description": "Synthetic Batter 6 homers. 1 run(s) score."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 32
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -0.8,
+  "result": {
+   "description": "Synthetic Batter 7 singles."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 33
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 0.1,
+  "result": {
+   "description": "Synthetic Batter 8 grounds out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 34
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -0.5,
+  "result": {
+   "description": "Synthetic Batter 9 flies out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 35
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 2.6,
+  "result": {
+   "description": "Synthetic Batter 10 pops out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 36
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 3.1,
+  "result": {
+   "description": "Synthetic Batter 11 flies out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 37
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 2.2,
+  "result": {
+   "description": "Synthetic Batter 12 pops out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 38
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -3.5,
+  "result": {
+   "description": "Synthetic Batter 13 walks."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 39
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -0.3,
+  "result": {
+   "description": "Synthetic Batter 1 walks."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 40
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -16.0,
+  "result": {
+   "description": "Synthetic Batter 2 flies out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 41
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 2.5,
+  "result": {
+   "description": "Synthetic Batter 3 grounds out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 42
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -3.3,
+  "result": {
+   "description": "Synthetic Batter 4 strikes out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 43
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 2.6,
+  "result": {
+   "description": "Synthetic Batter 5 doubles."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 44
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 1.8,
+  "result": {
+   "description": "Synthetic Batter 6 singles."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 45
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -1.6,
+  "result": {
+   "description": "Synthetic Batter 7 flies out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 46
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -1.1,
+  "result": {
+   "description": "Synthetic Batter 8 grounds out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 47
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 6.0,
+  "result": {
+   "description": "Synthetic Batter 9 homers. 1 run(s) score."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 48
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 1.1,
+  "result": {
+   "description": "Synthetic Batter 10 grounds out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 49
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 1.4,
+  "result": {
+   "description": "Synthetic Batter 11 pops out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 50
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -2.7,
+  "result": {
+   "description": "Synthetic Batter 12 pops out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 51
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -1.1,
+  "result": {
+   "description": "Synthetic Batter 13 lines out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 52
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": -2.7,
+  "result": {
+   "description": "Synthetic Batter 1 strikes out."
+  }
+ },
+ {
+  "about": {
+   "atBatIndex": 53
+  },
+  "homeTeamWinProbability": null,
+  "homeTeamWinProbabilityAdded": 3.3,
+  "result": {
+   "description": "Synthetic Batter 2 flies out."
+  }
+ }
+]

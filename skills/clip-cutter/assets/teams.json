@@ -1,0 +1,155 @@
+{
+"season": 2026,
+"teams": [
+{
+"id": 133,
+"abbr": "ATH",
+"name": "Athletics"
+},
+{
+"id": 144,
+"abbr": "ATL",
+"name": "Atlanta Braves"
+},
+{
+"id": 109,
+"abbr": "AZ",
+"name": "Arizona Diamondbacks"
+},
+{
+"id": 110,
+"abbr": "BAL",
+"name": "Baltimore Orioles"
+},
+{
+"id": 111,
+"abbr": "BOS",
+"name": "Boston Red Sox"
+},
+{
+"id": 112,
+"abbr": "CHC",
+"name": "Chicago Cubs"
+},
+{
+"id": 113,
+"abbr": "CIN",
+"name": "Cincinnati Reds"
+},
+{
+"id": 114,
+"abbr": "CLE",
+"name": "Cleveland Guardians"
+},
+{
+"id": 115,
+"abbr": "COL",
+"name": "Colorado Rockies"
+},
+{
+"id": 145,
+"abbr": "CWS",
+"name": "Chicago White Sox"
+},
+{
+"id": 116,
+"abbr": "DET",
+"name": "Detroit Tigers"
+},
+{
+"id": 117,
+"abbr": "HOU",
+"name": "Houston Astros"
+},
+{
+"id": 118,
+"abbr": "KC",
+"name": "Kansas City Royals"
+},
+{
+"id": 108,
+"abbr": "LAA",
+"name": "Los Angeles Angels"
+},
+{
+"id": 119,
+"abbr": "LAD",
+"name": "Los Angeles Dodgers"
+},
+{
+"id": 146,
+"abbr": "MIA",
+"name": "Miami Marlins"
+},
+{
+"id": 158,
+"abbr": "MIL",
+"name": "Milwaukee Brewers"
+},
+{
+"id": 142,
+"abbr": "MIN",
+"name": "Minnesota Twins"
+},
+{
+"id": 121,
+"abbr": "NYM",
+"name": "New York Mets"
+},
+{
+"id": 147,
+"abbr": "NYY",
+"name": "New York Yankees"
+},
+{
+"id": 143,
+"abbr": "PHI",
+"name": "Philadelphia Phillies"
+},
+{
+"id": 134,
+"abbr": "PIT",
+"name": "Pittsburgh Pirates"
+},
+{
+"id": 135,
+"abbr": "SD",
+"name": "San Diego Padres"
+},
+{
+"id": 136,
+"abbr": "SEA",
+"name": "Seattle Mariners"
+},
+{
+"id": 137,
+"abbr": "SF",
+"name": "San Francisco Giants"
+},
+{
+"id": 138,
+"abbr": "STL",
+"name": "St. Louis Cardinals"
+},
+{
+"id": 139,
+"abbr": "TB",
+"name": "Tampa Bay Rays"
+},
+{
+"id": 140,
+"abbr": "TEX",
+"name": "Texas Rangers"
+},
+{
+"id": 141,
+"abbr": "TOR",
+"name": "Toronto Blue Jays"
+},
+{
+"id": 120,
+"abbr": "WSH",
+"name": "Washington Nationals"
+}
+]
+}

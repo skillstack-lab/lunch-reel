@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Thin wrapper for the clip-cutter skill. The cutter (reel2.py) is vendored next to this script, so the skill folder
+# is self-contained. It runs from a working "home" so cache/ and out/ (and a relative --fixtures path) land in one place:
+#   $CLIP_CUTTER_HOME if set; else the repo root when this skill sits at <repo>/skills/clip-cutter; else
+#   ${XDG_CACHE_HOME:-~/.cache}/clip-cutter.
+# Private viewing only: output reels stay in <home>/out. Never upload or share them.
+set -euo pipefail
+here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+if [[ -n "${CLIP_CUTTER_HOME:-}" ]]; then
+  home="$CLIP_CUTTER_HOME"
+  [[ -d "$home" ]] || { echo "clip-cutter: CLIP_CUTTER_HOME=$home is not a directory" >&2; exit 2; }
+elif [[ -f "$here/../../../skills/clip-cutter/SKILL.md" ]]; then
+  home="$(cd "$here/../../.." && pwd)"
+else
+  home="${XDG_CACHE_HOME:-$HOME/.cache}/clip-cutter"; mkdir -p "$home"
+fi
+[[ -f "$here/reel2.py" ]] || { echo "clip-cutter: reel2.py missing next to $0 (broken skill copy)" >&2; exit 2; }
+for bin in python3 ffmpeg ffprobe curl; do
+  command -v "$bin" >/dev/null || { [[ "$bin" == python3 ]] && { echo "clip-cutter: need $bin" >&2; exit 2; }; [[ " $* " == *" --plan-only "* ]] || { echo "clip-cutter: need $bin to render (or pass --plan-only)" >&2; exit 2; }; }
+done
+export CLIP_CUTTER_TEAMS="${CLIP_CUTTER_TEAMS:-$here/../assets/teams.json}"
+cd "$home"
+exec python3 "$here/reel2.py" "$@"
