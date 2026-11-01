@@ -21,7 +21,7 @@
 
 ## Install
 ```bash
-git clone https://github.com/<org>/lunch-reel && cd lunch-reel
+git clone https://github.com/skillstack-lab/lunch-reel && cd lunch-reel
 python3 --version        # 3.10+ (stdlib only)
 # plan-only needs nothing else. Rendering needs ffmpeg + ffprobe + curl.
 ```
