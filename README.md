@@ -25,9 +25,15 @@ git clone https://github.com/skillstack-lab/lunch-reel && cd lunch-reel
 python3 --version        # 3.10+ (stdlib only)
 # plan-only needs nothing else. Rendering needs ffmpeg + ffprobe + curl.
 ```
-**As a Claude Code / Agent Skills skill:** copy or link `skills/clip-cutter/` into your skills directory. The cutter (`scripts/reel2.py`) is vendored inside the skill folder, so it works on its own. `cache/` and `out/` go to `$CLIP_CUTTER_HOME` if set, else the repo root (when run in place), else `~/.cache/clip-cutter`.
+**Claude Code plugin (one command):**
+```bash
+claude plugin install lunch-reel --marketplace skillstack-lab/lunch-reel
+```
+Or add then install: `claude plugin marketplace add skillstack-lab/lunch-reel` → `claude plugin install lunch-reel@skillstack-lab`. Then ask for a catch-up (skill: `/lunch-reel:clip-cutter`).
+
+**As a Claude Code / Agent Skills skill (manual):** copy or link `skills/clip-cutter/` into your skills directory. The cutter (`scripts/reel2.py`) is vendored inside the skill folder, so it works on its own. `cache/` and `out/` go to `$CLIP_CUTTER_HOME` if set, else the repo root (when run in place), else `~/.cache/clip-cutter`.
 **As a CLI:** `skills/clip-cutter/scripts/clip-cutter <gamePk> --plan-only --max-seconds 300` (or `python3 reel2.py ...` from the repo root)
-**Grok Bot:** template listing TBD.
+**Grok Bot:** clone or point a skill at `skills/clip-cutter/`. Feedback: ssdesk+clip@mail.grokbot.com.
 
 ## 60-second try (no video downloaded)
 ```bash
