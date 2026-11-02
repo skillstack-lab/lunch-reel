@@ -1,5 +1,7 @@
 # Lunch Reel: a catch-up MLB reel you build yourself, from a skill
 
+[![AgentHub](https://agenthub.nullorder.org/badge.svg)](https://agenthub.nullorder.org)
+
 **Offer:** An Agent Skill you can copy (Claude Code, Grok Bot, or plain bash) that turns one finished MLB game, a whole day's games, or one team's games into a spoiler-free catch-up plan in game order. It ranks plays by win-probability swing and fits them to a time budget. You render the reel on your own machine, for your own private viewing.
 
 **Who it's for first:** people who build skills and agents and want a working, tested "find what mattered → cut → stitch" skill to read, fork, and reuse. Baseball fans who missed a game come second.
