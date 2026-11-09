@@ -2,7 +2,7 @@
 
 [![AgentHub](https://agenthub.nullorder.org/badge.svg)](https://agenthub.nullorder.org)
 
-**Offer:** An Agent Skill you can copy (Claude Code, Grok Bot, or plain bash) that turns one finished MLB game, a whole day's games, or one team's games into a spoiler-free catch-up plan in game order. It ranks plays by win-probability swing and fits them to a time budget. You render the reel on your own machine, for your own private viewing.
+**Offer:** A Claude Code plugin and standalone Agent Skill that turns one finished MLB game, a whole day's games, or one team's games into a time-budgeted catch-up plan in game order. It ranks plays by win-probability swing. Plan-only downloads no video; optional rendering stays on your machine. Some highlight titles can reveal the result, so this is not a spoiler-safe experience.
 
 **Who it's for first:** people who build skills and agents and want a working, tested "find what mattered → cut → stitch" skill to read, fork, and reuse. Baseball fans who missed a game come second.
 
@@ -13,7 +13,7 @@
 - Ranks by how much each at-bat swung win probability, then fills a `--max-seconds` or `--top N` budget
 - Lists big swings MLB never clipped (`missed_hot`) and gives a reason for every clip it dropped
 - `--plan-only` downloads no video at all. It prints a JSON plan that links to MLB's own hosted clips.
-- Optional rendering (ffmpeg) burns in a spoiler-free score label, and the reel stays in your local `out/` folder
+- Optional rendering (ffmpeg) burns in a score label with the score before the plate appearance, and the reel stays in your local `out/` folder. Heads up: some highlight titles can still reveal the result.
 
 ## Rights: read before you use it
 - **We ship the cutter, never the clips.** This repo has no video, no reels, and no MLB media. Tests enforce that.
@@ -59,7 +59,7 @@ Plan JSON field guide: `skills/clip-cutter/references/OUTPUT.md`. Skill instruct
 
 ## Feedback
 - Email: **ssdesk+clip@mail.grokbot.com**. A bot reads this inbox, and every message gets read.
-- GitHub Discussions on this repo (Ideas / Q&A / Show-and-tell) once they're turned on
+- GitHub Discussions: [Ideas](https://github.com/skillstack-lab/lunch-reel/discussions/1), [Q&A](https://github.com/skillstack-lab/lunch-reel/discussions/2), [Show and tell](https://github.com/skillstack-lab/lunch-reel/discussions/3), and [first-run feedback](https://github.com/skillstack-lab/lunch-reel/discussions/4). Please do not upload video or rendered reels.
 - Please tell us what you tried, where it broke, and what you'd want it to cut next (another sport? another source?).
 
 ## License

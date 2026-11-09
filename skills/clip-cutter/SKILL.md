@@ -1,6 +1,6 @@
 ---
 name: clip-cutter
-description: Builds a private, spoiler-free MLB catch-up reel from MLB's already-public per-play highlight clips, ordered by real game chronology and ranked by win-probability swing. Covers one game, a whole date's slate, or one team's games, with a time budget. Use when someone missed an MLB game and wants a short catch-up, asks for the biggest plays of a day or of their team, or wants to cut, rank, or stitch MLB highlights. Private viewing only; it ships the cutter, never the clips.
+description: Builds a private MLB catch-up reel from MLB's already-public per-play highlight clips, ordered by real game chronology and ranked by win-probability swing. Covers one game, a whole date's slate, or one team's games, with a time budget. Some highlight titles can reveal the result. Use when someone missed an MLB game and wants a short catch-up, asks for the biggest plays of a day or of their team, or wants to cut, rank, or stitch MLB highlights. Private viewing only; it ships the cutter, never the clips.
 compatibility: Python 3.10+ (stdlib only), ffmpeg/ffprobe and curl for rendering, network access to statsapi.mlb.com and MLB clip CDNs (plan-only also runs offline on the bundled synthetic fixtures). Runs anywhere bash runs, e.g. Grok Bot, Claude Code, or a terminal.
 license: MIT (code only; no rights to MLB data or media)
 metadata:
@@ -15,7 +15,7 @@ Turns MLB's own per-play highlight clips into a lunch-break reel:
 - filters out talk, recaps, and repeat angles
 - orders clips by the real at-bat and pitch sequence
 - ranks by how much each at-bat swung win probability
-- burns in a spoiler-free scoreboard label
+- burns in a scoreboard label with the score before the plate appearance (highlight titles can still reveal the result)
 
 ## Rights: read first
 - **Private viewing only.** MLB's terms forbid redistributing compilations. Never upload, post, send, or share a rendered reel. Leave it in `out/` for the person who asked.

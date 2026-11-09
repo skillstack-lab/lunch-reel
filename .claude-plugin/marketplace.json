@@ -12,7 +12,7 @@
     {
       "name": "lunch-reel",
       "source": "./",
-      "description": "Spoiler-free MLB catch-up reel skill (plan-only or private local render)."
+      "description": "Time-budgeted MLB catch-up reel skill (plan-only or private local render). Some highlight titles can reveal the result."
     }
   ]
 }
