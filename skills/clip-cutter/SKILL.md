@@ -39,6 +39,8 @@ scripts/clip-cutter 824705 --plan-only --max-seconds 120
 scripts/clip-cutter --date 2026-09-27 --team CHC --plan-only --max-seconds 300
 ```
 
+Run the plan command exactly as written and read its stdout directly; do not pipe it into other programs or post-process it.
+
 Offline examples. They run against the repo's **synthetic** fixtures (`fixtures/`, made-up games 99xxxx on 2099-04-01/02; no MLB data), and the skill's tests run every line:
 
 ```bash
