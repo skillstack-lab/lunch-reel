@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 # Thin wrapper for the clip-cutter skill. The cutter (reel2.py) is vendored next to this script, so the skill folder
 # is self-contained. It runs from a working "home" so cache/ and out/ (and a relative --fixtures path) land in one place:
-#   $CLIP_CUTTER_HOME if set; else the repo root when this skill sits at <repo>/skills/clip-cutter; else
+#   $CLIP_CUTTER_HOME if set (created if missing); else the repo root when this skill sits at <repo>/skills/clip-cutter; else
 #   ${XDG_CACHE_HOME:-~/.cache}/clip-cutter.
 # Private viewing only: output reels stay in <home>/out. Never upload or share them.
 set -euo pipefail
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 if [[ -n "${CLIP_CUTTER_HOME:-}" ]]; then
   home="$CLIP_CUTTER_HOME"
-  [[ -d "$home" ]] || { echo "clip-cutter: CLIP_CUTTER_HOME=$home is not a directory" >&2; exit 2; }
+  mkdir -p "$home" 2>/dev/null || true  # create a missing data home on a cold start (nested paths too)
+  [[ -d "$home" ]] || { echo "clip-cutter: CLIP_CUTTER_HOME=$home is not a directory and could not be created" >&2; exit 2; }
 elif [[ -f "$here/../../../skills/clip-cutter/SKILL.md" ]]; then
   home="$(cd "$here/../../.." && pwd)"
 else

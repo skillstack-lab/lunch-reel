@@ -61,9 +61,18 @@ def test_documented_command_runs_plan_only(cmd, tmp_path):
     assert not list(tmp_path.iterdir())  # nothing written to caller's cwd
 
 
+def test_wrapper_creates_missing_home_on_cold_start(tmp_path):
+    home = tmp_path / "fresh" / "data"  # nested and missing: a cold start must not need the caller to pre-create it
+    r = subprocess.run([str(SKILL / "scripts" / "clip-cutter"), "990003", "--fixtures", str(ROOT / "fixtures"), "--plan-only"],
+                       capture_output=True, text=True, timeout=60, env={**os.environ, "CLIP_CUTTER_HOME": str(home)})
+    assert r.returncode == 0, r.stderr
+    assert home.is_dir()
+
+
 def test_wrapper_bad_home_fails_cleanly(tmp_path):
+    blocker = tmp_path / "afile"; blocker.write_text("x")  # a file where the home should be: cannot be created
     r = subprocess.run([str(SKILL / "scripts" / "clip-cutter"), "990003", "--plan-only"], capture_output=True, text=True,
-                       env={**os.environ, "CLIP_CUTTER_HOME": str(tmp_path / "nope")})
+                       env={**os.environ, "CLIP_CUTTER_HOME": str(blocker / "sub")})
     assert r.returncode == 2 and "CLIP_CUTTER_HOME" in r.stderr
 
 
