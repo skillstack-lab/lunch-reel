@@ -30,7 +30,7 @@ Turns MLB's own per-play highlight clips into a lunch-break reel:
 - Not for: live games, other sports, or anything that requires publishing video.
 
 ## Commands
-Run via `scripts/clip-cutter`. The cutter (`scripts/reel2.py`, stdlib Python) is vendored in this folder, so the skill works on its own. The wrapper runs from a home directory where `cache/` and `out/` live: `$CLIP_CUTTER_HOME` if set, else the repo root when the skill sits at `<repo>/skills/clip-cutter`, else `~/.cache/clip-cutter`. You need a gamePk (from `https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=YYYY-MM-DD`) or a date plus a team (abbreviation or MLB id; see `assets/teams.json`).
+Run via `scripts/clip-cutter`. The cutter (`scripts/reel2.py`, stdlib Python) is vendored in this folder, so the skill works on its own. The wrapper runs from a home directory where `cache/` and `out/` live: `$CLIP_CUTTER_HOME` if set (created if missing), else the repo root when the skill sits at `<repo>/skills/clip-cutter`, else `~/.cache/clip-cutter`. You need a gamePk (from `https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=YYYY-MM-DD`) or a date plus a team (abbreviation or MLB id; see `assets/teams.json`).
 
 Live, plan-only (needs network to statsapi.mlb.com, downloads no video):
 
