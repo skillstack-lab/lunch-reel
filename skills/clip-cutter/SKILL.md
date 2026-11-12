@@ -1,6 +1,6 @@
 ---
 name: clip-cutter
-description: Builds a private MLB catch-up reel from MLB's already-public per-play highlight clips, ordered by real game chronology and ranked by win-probability swing. Covers one game, a whole date's slate, or one team's games, with a time budget. Some highlight titles can reveal the result. Use when someone missed an MLB game and wants a short catch-up, asks for the biggest plays of a day or of their team, or wants to cut, rank, or stitch MLB highlights. Private viewing only; it ships the cutter, never the clips.
+description: Builds a private MLB catch-up reel from MLB's already-public per-play highlight clips, ordered by real game chronology and ranked by win-probability swing. Covers one game, a whole date's slate, or one team's games, with a time budget. Start with --plan-only and return the game-ordered plan; render a private local reel only when the user explicitly asks. Some highlight titles can reveal the result. Use when someone missed an MLB game and wants a short catch-up, asks for the biggest plays of a day or of their team, or wants to cut, rank, or stitch MLB highlights. Private viewing only; it ships the cutter, never the clips.
 compatibility: Python 3.10+ (stdlib only), ffmpeg/ffprobe and curl for rendering, network access to statsapi.mlb.com and MLB clip CDNs (plan-only also runs offline on the bundled synthetic fixtures). Runs anywhere bash runs, e.g. Grok Bot, Claude Code, or a terminal.
 license: MIT (code only; no rights to MLB data or media)
 metadata:
@@ -20,13 +20,13 @@ Turns MLB's own per-play highlight clips into a lunch-break reel:
 ## Rights: read first
 - **Private viewing only.** MLB's terms forbid redistributing compilations. Never upload, post, send, or share a rendered reel. Leave it in `out/` for the person who asked.
 - **Ship the cutter, not the clips.** Public pages may link to MLB's own video pages; never host clip bytes.
-- `--plan-only` downloads no video. Prefer it when you only need to answer "what were the big plays".
+- `--plan-only` downloads no video. In a chat catch-up, including "the 5-minute version" or "catch me up in 5 minutes", always run `--plan-only` first and answer from that plan. Only drop `--plan-only` when the user explicitly asks you to render or save a local video.
 - Not affiliated with, endorsed by, or sponsored by MLB or MLB Advanced Media. Data comes live from MLB's public API for individual, non-commercial use.
 
 ## When to use
-- "I missed the Cubs game, catch me up in 5 minutes": a single game or `--team` reel
+- "I missed the Cubs game, catch me up in 5 minutes" / "give me the 5-minute version": run the matching `--date`/`--team` (or gamePk) command with `--plan-only`, then list `inning: headline`. Do not render yet.
 - "What were the biggest moments around MLB on Sept 25?": `--date` slate, plan-only
-- "Make me a Yankees reel for yesterday": `--team NYY --date ...`
+- "Make me a Yankees reel for yesterday": `--team NYY --date ...` with `--plan-only` first; render only if they then ask for a local video.
 - Not for: live games, other sports, or anything that requires publishing video.
 
 ## Commands
@@ -50,7 +50,7 @@ scripts/clip-cutter --date 2099-04-01 --team NYY --fixtures fixtures --plan-only
 scripts/clip-cutter --date 2099-04-02 --team 112 --fixtures fixtures --plan-only --top 6 --against-weight 1
 ```
 
-Live data: drop `--fixtures fixtures`. Render: drop `--plan-only`. That downloads only the clips it needs into `cache/<gamePk>/` and writes the reel:
+Live data: drop `--fixtures fixtures`. Render only when the user explicitly asks for a local video: drop `--plan-only`. That downloads only the clips it needs into `cache/<gamePk>/` and writes the reel:
 - `out/reel_<pk>_hl.mp4` for a single game
 - `out/slate_<date>.mp4` for a date
 - `out/team_<ABBR>_<date>.mp4` for a team
